@@ -10,4 +10,9 @@ class Conta
         $this->numero = $numero;
         $this->saldo = $saldo;
     }
+
+    function creditar($valor)
+    {
+        $this->saldo = $this->saldo + $valor;
+    }
 }
