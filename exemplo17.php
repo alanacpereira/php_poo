@@ -35,6 +35,7 @@ echo "Atributo Public = $teste->varPublic <br>";
 // echo "Atributo Protected = $teste->varProtected <br>";
 // echo "Atributo Private = $teste->varPrivate <br>";
 
+//Protegemos os filhos e privamos de tudo 
 echo "<br>";
 $teste->publicFunc();
 $teste->protectedFunc();
