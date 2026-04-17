@@ -17,7 +17,7 @@ class Carro {
         if($novaVelocidade >= 0 && $novaVelocidade <= 200) {
             $this->velocidade = $novaVelocidade;
         } else {
-            echo "Velocidade inválida: $novaVelocidade km/h.Deve ser entre 0 e 200 km/h.";
+            echo "Velocidade inválida: $novaVelocidade km/h. <br> Deve ser entre 0 e 200 km/h.";
         }
     }
 }
@@ -29,5 +29,5 @@ $meuCarro = new Carro("Senai-Mobile", 0);
 $meuCarro->setVelocidade(5000); // Velocidade de foguete?
 $meuCarro->setVelocidade(-60);   // Carro andando no tempo?
 
-echo "Modelo: " . $meuCarro->modelo . "<br>";
-echo "Velocidade atual: " . $meuCarro->getVelocidade() . " km/h";
+echo "Modelo: " . "<br>" .$meuCarro->modelo;
+echo "Velocidade atual: ".$meuCarro->getVelocidade() . "km/h";
