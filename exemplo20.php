@@ -48,4 +48,4 @@ $sistemaWhatsapp = new SistemaDeNotificacoes(new NotificadorWhatsapp());
 
 $sistemaEmail->notificarUsuario("joao@email.com", "Seu Pedido foi confirmado");
 $sistemaSMS->notificarUsuario("17991012525", "Seu Pedido foi confirmado");
-$sistemaWhatsapp->notificarUsuario("17991012525", "Seu Pedido foi confirmado");
+$sistemaWhatsapp->notificarUsuario("17991012525", "Seu Pedido foi confirmado"); 
