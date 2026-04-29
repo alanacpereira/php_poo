@@ -61,3 +61,9 @@ class Retangulo extends FiguraGeometrica{
         return (2 * $this->lado1) + (2 * $this->lado2);
     }
 }
+
+$circ = new Circunferencia("Circunferência", 10);
+$circ->printCaracteristicas();
+
+$rectangulo = new Retangulo("Retângulo", 10, 20);
+$rectangulo->printCaracteristicas();
